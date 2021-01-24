@@ -4,7 +4,6 @@ using namespace std;
 
 int main(){
 	Speaker A("A"), B("B");
-	Speaker::printConversation();
 
 	/*generate more test messages than the array can hold*/
 	for (int i = 0; i < Speaker::MAX+3; i++)
