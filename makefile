@@ -1,4 +1,4 @@
-FLAGS = -o
+FLAGS = -std=c++11 -o
 all : driver
 
 driver : driver.cpp message.cpp Message.h
